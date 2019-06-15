@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#check{
+    display: none;
+}
+#icone{
+    cursor:pointer;
+    padding: 15px;
+    z-index: 4;
+}
+.img-icon{
+    width: 84px;
+    height: auto;
+    padding-left: 16px;
+}
+.img-icon-hamb{
+
+    width: 24px;
+    height: auto;
+
+}
+.img-icon-pesq{
+    width:14px ;
+    height: auto;
+}
+button{
+    width: 65px;
+    height: 30px;
+}
+
+.barra{
+
+    background-color: #ffffff;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    transition: all  .2s linear;
+    left: -300px;
+    z-index: 3;
+
+}
+ .menu-hamb{
+     width: 100%;
+     position: absolute;
+     top: 5px;
+ }
+
+ .menu-hamb a{
+     text-decoration: none;
+ }
+
+.link{
+    background-color: #00000098;
+    padding: 20px;
+    font-family: 'Arial';
+    font-size: 12px;
+    transition: all .2s linear;
+    color: white;
+    border-bottom: 2px solid #222;
+}
+.link:hover{
+    background-color: #aa060098;
+}
+
+#check:checked ~ .barra{
+
+    transform: translateX(300px);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    height:56px ;
+}
+
+input{
+    width: 377px;
+    height: 25px;
+
+
+}
+
+.icons-nav {
+
+    padding: 0px 0px 0px;
+}
+.icons-nav img{
+    padding: 0px 12px 0px;
+}
+
+section{
+    border-top: solid 4px rgb(226, 226, 226);
+}
+
+.video{
+    width:956px;
+    height:538px;
+}
+
+
+@media (max-width:1384px){
+
+
+
+    
+}
