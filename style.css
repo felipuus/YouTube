@@ -95,7 +95,20 @@ input{
 }
 
 section{
+    display: flex;
+    justify-content: space-around;
     border-top: solid 4px rgb(226, 226, 226);
+}
+section nav div{
+    padding: 18px 0px 0px;
+}
+section nav img{
+    width: 168px;
+    height: auto;
+}
+
+.nav-video{
+    display: flex;
 }
 
 .video{
